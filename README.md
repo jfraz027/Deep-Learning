@@ -4,9 +4,9 @@
 
 ## Background
 
-The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. Through machine learning and neural networks, use features in the dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
-From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
+From Alphabet Soup’s business team, analye a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
 
 * **EIN** and **NAME**—Identification columns
 * **APPLICATION_TYPE**—Alphabet Soup application type
@@ -24,9 +24,9 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 
 ### Step 1: Preprocess the Data
 
-Using your knowledge of Pandas and scikit-learn’s `StandardScaler()`, you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
+Use Pandas and scikit-learn’s `StandardScaler()`, also preprocess the dataset. This step prepares the data for Step 2, where it'll undergo compile, train, and evaluate the neural network model.
 
-Using the information we have provided in the starter code, follow the instructions to complete the preprocessing steps.
+Utilize the starter code, follow the instructions to complete the preprocessing steps.
 
 1. Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
   * What variable(s) are the target(s) for your model?
