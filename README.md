@@ -1,5 +1,7 @@
 # Deep-Learning
 
+![image](https://user-images.githubusercontent.com/99145651/185727357-413337e0-51a2-4e3d-a14d-079756c49b63.png)
+
 ## Background
 
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
@@ -40,6 +42,8 @@ Using the information we have provided in the starter code, follow the instructi
 
 6. Use `pd.get_dummies()` to encode categorical variables.
 
+![image](https://user-images.githubusercontent.com/99145651/185727414-48a7c93e-3ae2-44f7-9221-bcb76b249eda.png)
+
 ### Step 2: Compile, Train, and Evaluate the Model
 
 Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
@@ -62,11 +66,11 @@ Using your knowledge of TensorFlow, you’ll design a neural network, or deep le
 
 9. Evaluate the model using the test data to determine the loss and accuracy.
 
-10. Save and export your results to an HDF5 file. Name the file `AlphabetSoupCharity.h5`.
+10. Save and export results to an HDF5 file. Name the file `AlphabetSoupCharity.h5`.
 
 ### Step 3: Optimize the Model
 
-Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
+Using TensorFlow, optimize the model to achieve a target predictive accuracy higher than 75%.
 
 Using any or all of the following methods to optimize your model:
 
@@ -79,21 +83,22 @@ Using any or all of the following methods to optimize your model:
 * Use different activation functions for the hidden layers.
 * Add or reduce the number of epochs to the training regimen.
 
-**Note**: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
-
 1. Create a new Jupyter Notebook file and name it `AlphabetSoupCharity_Optimzation.ipynb`.
 
-2. Import your dependencies and read in the `charity_data.csv` to a Pandas DataFrame.
+2. Import dependencies and read in the `charity_data.csv` to a Pandas DataFrame.
 
-3. Preprocess the dataset like you did in Step 1, Be sure to adjust for any modifications that came out of optimizing the model.
+3. Preprocess the dataset like you did in Step 1, adjust for any modifications that came out of optimizing the model.
 
 4. Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
 
-5. Save and export your results to an HDF5 file. Name the file `AlphabetSoupCharity_Optimization.h5`.
+5. Save and export results to an HDF5 file. Name the file `AlphabetSoupCharity_Optimization.h5`.
+
+![image](https://user-images.githubusercontent.com/99145651/185727468-e1ed58fd-362d-475a-aad7-3673f3a8941f.png)
+
 
 ### Step 4: Write a Report on the Neural Network Model
 
-For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for AlphabetSoup.
+Report on the performance of the deep learning model you created for AlphabetSoup.
 
 The report should contain the following:
 
